@@ -12,6 +12,7 @@ go get -d github.com/blang/semver github.com/dustin/go-humanize \
 
 if [ -z "$GOPATH" ]; then DIR=~/go; else DIR=$GOPATH; fi
 
+rm $DIR/bin/micro
 cd $DIR/src/github.com/adam-mcdaniel/micro
 
 make install >/dev/null || make install
