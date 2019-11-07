@@ -14,6 +14,6 @@ if [ -z "$GOPATH" ]; then DIR=~/go; else DIR=$GOPATH; fi
 
 cd $DIR/src/github.com/adam-mcdaniel/micro
 
-make >/dev/null || make
+make install >/dev/null || make install
 
 echo "Add \"$DIR/bin\" to your path"
