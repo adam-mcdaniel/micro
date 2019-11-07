@@ -530,8 +530,6 @@ func DefaultBindings() map[string]string {
 		"CtrlLeft":       "StartOfLine",
 		"CtrlRight":      "EndOfLine",
 		"CtrlShiftLeft":  "SelectToStartOfLine",
-		"PageUpShift":    "SelectPageUp",
-		"PageDownShift":  "SelectPageDown",
 		"ShiftHome":      "SelectToStartOfLine",
 		"CtrlShiftRight": "SelectToEndOfLine",
 		"ShiftEnd":       "SelectToEndOfLine",
